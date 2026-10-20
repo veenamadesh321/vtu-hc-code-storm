@@ -307,6 +307,6 @@ Released under the [MIT License](LICENSE). See `LICENSE` for details.
 **Code storm** · Team ID `VTU-QFF-HC-0111` · Tier `Online`
 · Built with ⚛️ Qiskit for the VTU-QFF Hackathon
 
-[⬆ Back to Top](#Code storm)
+[⬆ Back to Top](#code-storm)
 
 </div>
