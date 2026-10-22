@@ -46,9 +46,9 @@
 
 | # | Name | GitHub Username | Role |
 | :-- | :--- | :--- | :--- |
-| 1 | _Add your name_ | _your-github-username_ | _Team Lead_ |
-| 2 | _Add your name_ | _your-github-username_ | _Developer_ |
-| 3 | _Add your name_ | _your-github-username_ | _Developer_ |
+| 1 | _Veena M_ | _your-github-username_ | _Team Lead_ |
+| 2 | _bhuvana shree V_ | _your-github-username_ | _Developer_ |
+| 3 | _pavithra S_ | _your-github-username_ | _Developer_ |
 
 <!--
 Optional: add a plain list instead of the table above.
