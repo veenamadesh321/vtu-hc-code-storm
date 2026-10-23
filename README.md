@@ -110,17 +110,24 @@ Key Ideas of Clinova
 
 ## 🧩 Approach & Architecture
 
----flowchart LR
-A[Input Data] --> B[Preprocessing
-B --> C[Quantum Circuit / Model]
-C --> D [Post-processing]
-D --> E[Output]
----
-1.** Input** - what data goes in and in what format
-2.** Preprocessing** - cleaning, feature extraction, encoding
-3. **Quantum core** - the circuit, ansatz, or algorithm used
-4. **Post-processing **- decoding, measurement, scoring
-5.Output gets what the user finally
+<!--
+Walk through how it works. A simple pipeline diagram in text or Mermaid is ideal . 
+-->
+
+```mermaid
+flowchart LR
+  A[Input Data]-->
+B[Preprocessing]
+  B --> C[Quantum Circuit / Model]
+  C --> D[Post-processing]
+  D --> E[Output]
+```
+
+1.** Input** - _what data goes in and in what format_
+2.** Preprocessing** - _cleaning, feature extraction, encoding_
+3. **Quantum core** - _the circuit, ansatz, or algorithm used_
+4. **Post-processing **- _decoding, measurement, scoring_
+5.**Output**- _what the user finally gets_
 
 ## 🛠️ Tech Stack
 
