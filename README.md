@@ -147,21 +147,42 @@ flowchart LR
 
 ```text
 vtu-hc-code-storm/
-├── README.md              # This file
-├── requirements.txt       # Python dependencies
-├── pyproject.toml         # Project metadata (optional)
-├── .gitignore
-├── notebooks/             # Jupyter notebooks for experiments
-│   └── exploration.ipynb
-├── src/
-│   ├── __init__.py
-│   ├── circuit.py         # Quantum circuit construction
-│   ├── optimizer.py       # Optimization loop
-│   └── main.py            # Entry point
-├── data/                  # Datasets (use Git LFS for large files)
-├── tests/                 # Unit tests
-│   └── test_circuit.py
-└── docs/                  # Notes, diagrams, reports
+├── README.md 
+clinova/
+├── package.json                 # Root workspace config
+├── tsconfig.base.json           # Shared TS config
+├── .env.example                 # PORT, JWT_SECRET, SEED_USER_PASSWORD, etc.
+├── AGENTS.md                    # This spec
+├── README.md                    # (needs Phase 7 completion)
+├── shared/                      # @clinova/shared (CommonJS)
+│   ├── src/
+│   │   ├── index.ts             # Barrel export
+│   │   ├── types.ts             # All shared types
+│   │   ├── schemas.ts           # Zod schemas
+│   │   ├── stateMachine.ts      # Status transitions, selectNext, backoff
+│   │   ├── prng.ts              # mulberry32 PRNG
+│   │   ├── bb84.ts              # BB84 engine
+│   │   └── protocol.ts          # ECDH+HKDF+AES-GCM constants
+│   └── test/                    # 31 unit tests
+├── backend/                     # Express + better-sqlite3
+│   ├── src/
+│   │   ├── index.ts             # App entry
+│   │   ├── db.ts                # DB connection + migrations runner
+│   │   ├── database/migrations/ # 001-init.sql, 002-audit-triggers.sql
+│   │   ├── services/            # auth, referrals, security, transmission, seed, analytics, audit, handshake
+│   │   ├── routes/              # API routes with zod validation
+│   │   └── middleware/          # auth, error handler, rate limit
+│   └── test/                    # 25 Supertest tests
+└── frontend/                    # React 18 + Vite + Tailwind
+    ├── src/
+    │   ├── App.tsx              # Providers + routes + role guards
+    │   ├── main.tsx             # Entry
+    │   ├── lib/                 # api, network, messages, outboxStore, scheduler, transmission, settings, organizations, session, format
+    │   ├── context/             # Auth, Network, Outbox, Settings contexts
+    │   ├── components/          # AppShell, StatusBadge, ui, OfflineBanner, ConfirmDialog
+    │   ├── pages/               # Login, Dashboard, CreateReferral, MessageQueue
+    │   └── test/                # factories, render, setup + 47 tests
+    └── vite.config.ts           # Aliases @clinova/shared -> ../shared/src             
 ```
 
 ---
