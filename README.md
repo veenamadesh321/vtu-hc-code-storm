@@ -110,23 +110,29 @@ Key Ideas of Clinova
 
 ## 🧩 Approach & Architecture
 
-<!--
-Walk through how it works. A simple pipeline diagram in text or Mermaid is ideal.
--->
-
-```mermaid
-flowchart LR
-    A[Input Data] --> B[Preprocessing]
-    B --> C[Quantum Circuit / Model]
-    C --> D[Post-processing]
-    D --> E[Output]
+---flowchart LR
+    A[Patient Report Input] --> B[Data Validation and Preprocessing]
+    B --> C{Internet Available?}
+    C -- No --> D[Store Report in Secure Queue]
+    D --> E[Wait for Connection]
+    E --> C
+    C -- Yes --> F[Prioritise Emergency Reports]
+    F --> G[Encrypt Data and Verify Security Key]
+    G --> H[Send Report to Hospital]
+    H --> I[Hospital Receives Report]
+    I --> J[Update Delivery Status]
+    J --> K[Secure Patient Information Exchange]
 ```
 
-1. **Input** — _what data goes in and in what format_
-2. **Preprocessing** — _cleaning, feature extraction, encoding_
-3. **Quantum core** — _the circuit, ansatz, or algorithm used_
-4. **Post-processing** — _decoding, measurement, scoring_
-5. **Output** — _what the user finally gets_
+
+1.** Patient Report Input** — The rural clinic enters the patient's medical summary.
+2.**Data Validation and Preprocessing** — The system checks the report details.
+3.**Internet Available? **— Checks whether a connection is available.
+4.**Secure Queue** — Stores reports until the internet returns.
+5.**Emergency Priority** — Urgent reports are sent first.
+6.**Encryption and Security Key** — Protects the report during transmission.
+7.**Hospital Receives Report** — The receiving hospital gets the medical information.
+8.**Delivery Status** — Shows whether the report was sent or delivered.
 
 ---
 
