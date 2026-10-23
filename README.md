@@ -68,7 +68,7 @@ statement from the brief if one applies.
 
 **Problem:** _Secure and Reliable Exchange of Patient Information Between Rural Clinics and Hospitals._
 
-**Why it matters:** _Rural clinics often have poor internet, so they cannot easily share patient reports with big hospitals. This can delay treatment, especially during emergencies. Our system helps send reports when the internet is available and keeps patient information safe.
+**Why it matters:** _Rural clinics often have poor internet, so they cannot easily share patient reports with big hospitals. This can delay treatment, especially during emergencies. Our system helps send reports when the internet is available and keeps patient information safe
 ._
 
 **Track / Category:** _Online_.Track 2 and Track 7 _<domain>_
@@ -82,11 +82,11 @@ Describe your solution. Keep it concrete: the core idea, the user flow, and
 the quantum/ML technique you are applying.
 -->
 
-**Solution:** _I have built an app called Clinova to help rural clinics securely share patient information with larger hospitals. It stores medical reports when the internet is unavailable and sends them when the connection returns. It prioritises emergency reports to reduce treatment delays and uses encryption to protect patient information. Clinova aims to make healthcare communication safer, faster, and more reliable for rural patients and healthcare workers.
+**Solution:** _I have built an app called Clinova to help rural clinics securely share patient information with larger hospitals. It stores medical reports when the internet is unavailable and sends them when the connection returns. It prioritises emergency reports to reduce treatment delays and uses encryption to protect patient information. Clinova aims to make healthcare communication safer, faster, and more reliable for rural patients and healthcare workers
 ._
 
 **🎭Key idea:** _._
-** Key Ideas of Clinova
+Key Ideas of Clinova
 
 * Offline Storage: Stores patient reports when the internet is unavailable.
 
@@ -100,10 +100,10 @@ the quantum/ML technique you are applying.
 
 * Quantum-Key Simulation: Demonstrates an additional approach to secure communication.
 
-* Delivery Tracking: Shows whether reports are queued, sent, or received.**
+* Delivery Tracking: Shows whether reports are queued, sent, or received.
 
 
-**Why this works:** _Clinova works by storing patient reports when the internet is unavailable and sending them automatically when the connection returns. It sends emergency reports first to reduce treatment delays and uses encryption to protect patient information. This makes communication between rural clinics and larger hospitals safer, faster, and more reliable.
+**Why this works:** _Clinova works by storing patient reports when the internet is unavailable and sending them automatically when the connection returns. It sends emergency reports first to reduce treatment delays and uses encryption to protect patient information. This makes communication between rural clinics and larger hospitals safer, faster, and more reliable
 ._
 
 ---
