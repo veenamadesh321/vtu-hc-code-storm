@@ -116,11 +116,17 @@ Walk through how it works. A simple pipeline diagram in text or Mermaid is ideal
 
 ```mermaid
 flowchart LR
-  A[Input Data]-->
-B[Preprocessing]
-  B --> C[Quantum Circuit / Model]
-  C --> D[Post-processing]
-  D --> E[Output]
+  A[Patient Report  Input] --> B[ Data Validation and Preprocessing]
+  B --> C{Internet Available?}
+    C -- No --> D[Store Report in Secure Queue]
+    D --> E[Wait for Connection]
+    E --> C
+    C -- Yes --> F[Prioritise Emergency Reports]
+    F --> G[Encrypt Data and Verify Security Key]
+    G --> H[Send Report to Hospital]
+    H --> I[Hospital Receives Report]
+    I --> J[Update Delivery Status]
+    J --> K[Secure Patient Information Exchange]
 ```
 
 1. Input - _what data goes in and in what format_
