@@ -129,15 +129,14 @@ flowchart LR
     J --> K[Secure Patient Information Exchange]
 ```
 
-1. Input - _what data goes in and in what format_
-
-2.Preprocessing - _cleaning, feature extraction, encoding_
-
-3.Quantum core - _the circuit, ansatz, or algorithm used_
-
-4.Post-processing - _decoding, measurement, scoring_
-
-5.Output - _what the user finally gets_
+1._Patient Report Input — The rural clinic enters the patient's medical summary_.
+2._Data Validation and Preprocessing — The system checks the report details_.
+3._Internet Available? — Checks whether a connection is available.
+4.Secure Queue — Stores reports until the internet returns_.
+5._Emergency Priority — Urgent reports are sent first_.
+6._Encryption and Security Key — Protects the report during transmission_.
+7._Hospital Receives Report — The receiving hospital gets the medical information_.
+8._Delivery Status — Shows whether the report was sent or delivered_.
 
 ## 🛠️ Tech Stack
 
