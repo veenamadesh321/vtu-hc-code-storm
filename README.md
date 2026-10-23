@@ -46,9 +46,9 @@
 
 | # | Name | GitHub Username | Role |
 | :-- | :--- | :--- | :--- |
-| 1 | _Veena M_ | _https://github.com/veenamadesh321_ | _Team Lead_ |
-| 2 | _bhuvana shree V_ | _https://github.com/bhuvanashreeot13_ | _Developer_ |
-| 3 | _pavithra S_ | _https://github.com/Pavithrasselvaraj611_ | _Developer_ |
+| 1 | _Veena M_ | _veenamadesh321_ | _Team Lead_ |
+| 2 | _Bhuvana shree V_ | _bhuvanashreeot13_ | _Developer_ |
+| 3 | _Pavithra S_ | _Pavithrasselvaraj611_ | _Developer_ |
 
 <!--
 Optional: add a plain list instead of the table above.
