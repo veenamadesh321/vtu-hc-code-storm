@@ -46,9 +46,9 @@
 
 | # | Name | GitHub Username | Role |
 | :-- | :--- | :--- | :--- |
-| 1 | _Veena M_ | _@veenamadesh321_ | _Team Lead_ |
-| 2 | _Bhuvana shree V_ | _@bhuvanashreeot13_ | _Developer_ |
-| 3 | _Pavithra S_ | _@Pavithrasselvaraj611_ | _Developer_ |
+| 1 | _Veena M_ | _veenamadesh321_ | _Team Lead_ |
+| 2 | _Bhuvana shree V_ | _bhuvanashreeot13_ | _Developer_ |
+| 3 | _Pavithra S_ | _Pavithrasselvaraj611_ | _Developer_ |
 
 <!--
 Optional: add a plain list instead of the table above.
@@ -66,11 +66,12 @@ who experiences it, and why does it matter. Link to the official problem
 statement from the brief if one applies.
 -->
 
-**Problem:** _Describe the problem in 2–3 sentences._
+**Problem:** _Secure and Reliable Exchange of Patient Information Between Rural Clinics and Hospitals._
 
-**Why it matters:** _Explain the impact or opportunity._
+**Why it matters:** _Rural clinics often have poor internet, so they cannot easily share patient reports with big hospitals. This can delay treatment, especially during emergencies. Our system helps send reports when the internet is available and keeps patient information safe.
+._
 
-**Track / Category:** _Online / Offline · Track 1 / Track 2 · <domain>_
+**Track / Category:** _Online_ · Track 2 / Track 7 · <domain>_
 
 ---
 
