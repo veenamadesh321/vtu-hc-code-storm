@@ -124,7 +124,7 @@ Key Ideas of Clinova
     J --> K[Secure Patient Information Exchange]
 ```
 
-
+## Input
 1.** Patient Report Input** — The rural clinic enters the patient's medical summary.
 2.**Data Validation and Preprocessing** — The system checks the report details.
 3.**Internet Available? **— Checks whether a connection is available.
