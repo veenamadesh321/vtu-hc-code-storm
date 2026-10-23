@@ -123,11 +123,11 @@ B[Preprocessing]
   D --> E[Output]
 ```
 
-1.** Input** - _what data goes in and in what format_
-2.** Preprocessing** - _cleaning, feature extraction, encoding_
-3. **Quantum core** - _the circuit, ansatz, or algorithm used_
-4. **Post-processing **- _decoding, measurement, scoring_
-5.**Output**- _what the user finally gets_
+1. Input - _what data goes in and in what format_
+2.Preprocessing - _cleaning, feature extraction, encoding_
+3.Quantum core - _the circuit, ansatz, or algorithm used_
+4.Post-processing - _decoding, measurement, scoring_
+5.Output - _what the user finally gets_
 
 ## 🛠️ Tech Stack
 
